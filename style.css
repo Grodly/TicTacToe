@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(199, 203, 209);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .register {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 20px;
+    background: rgb(49, 57, 69);
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.main .register .inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .register .inputForm input {
+    width: 50%;
+    height: 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 7px;
+}
+
+.main .register .inputForm .submit {
+    background: rgb(43, 122, 51);
+    color: #fff;
+    border: none;
+}
+
+.main .gameBar {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 50%;
+    height: 50%;
+    background: rgb(92, 100, 112);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.main .gameBar button {
+    margin: 30px;
+    padding: 2% 10%;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main .gameBar .player1 {
+    background: rgb(166, 42, 12);
+}
+
+.main .gameBar .player2 {
+    background: rgb(12, 68, 166);
+}
+
+.main .gameArea {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.main .gameArea button {
+    color: black;
+    margin: 3px;
+    border-radius: 0;
+    width: 30%;
+    padding-bottom: 25%;
+}
