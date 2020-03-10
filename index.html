@@ -15,27 +15,27 @@
             <h1>Tic Tac Toe</h1>
             <article class="inputForm">
                 <label for="text">Player_1</label>
-                <input type="text">
+                <input class="player1_input" type="text">
                 <label for="text">Player_2</label>
-                <input type="text">
-                <input class="submit" type="submit">
+                <input class="player2_input" type="text">
+                <input class="submit" type="submit" value="New Game" onclick="CheckPlayersNames()">
             </article>
         </div>
         <div class="gameBar">
             <button class="player1">Player_1</button>
             <button class="player2">Player_2</button>
             <div class="gameArea">
-                <button>X</button>
-                <button>X</button>
-                <button>X</button>
-
-                <button></button>
-                <button></button>
-                <button></button>
-
-                <button></button>
-                <button>X</button>
-                <button>X</button>
+                <div class="gameArea">
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()">
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()">
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()"><br />
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()">
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()">
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()"><br />
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()">
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()">
+                    <input type="button" id="btn" value="" onclick="OnClickBlock()">
+                </div>
             </div>
         </div>
     </section>

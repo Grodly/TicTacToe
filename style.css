@@ -36,6 +36,8 @@ body {
     margin: 10px 0;
     border: none;
     border-radius: 7px;
+    text-align: center;
+    color: #313945;
 }
 
 .main .register .inputForm .submit {
@@ -65,23 +67,22 @@ body {
 }
 
 .main .gameBar .player1 {
-    background: rgb(166, 42, 12);
+    background: #e0765c;
 }
 
 .main .gameBar .player2 {
-    background: rgb(12, 68, 166);
+    background: #5c60e0;
 }
 
 .main .gameArea {
-    display: block;
     margin: auto;
-    width: 50%;
 }
 
-.main .gameArea button {
-    color: black;
-    margin: 3px;
-    border-radius: 0;
-    width: 30%;
-    padding-bottom: 25%;
+.main .gameArea input[type=button] {
+    background: #313945;
+    color: #fff;
+    width: 10%;
+    padding-bottom: 8%;
+    margin: 5px 3px;
+    border: none;
 }
