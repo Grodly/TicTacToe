@@ -65,21 +65,21 @@ function OnClickBlock(id) {
 
 function CheckWinner() {
     if (buttons[0].value === buttons[1].value && buttons[0].value === buttons[2].value && buttons[0].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[0].value);
     } else if (buttons[3].value === buttons[4].value && buttons[3].value === buttons[5].value && buttons[3].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[3].value);
     } else if (buttons[6].value === buttons[7].value && buttons[6].value === buttons[8].value && buttons[6].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[6].value);
     } else if (buttons[0].value === buttons[3].value && buttons[0].value === buttons[6].value && buttons[0].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[0].value);
     } else if (buttons[1].value === buttons[4].value && buttons[1].value === buttons[7].value && buttons[1].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[1].value);
     } else if (buttons[2].value === buttons[5].value && buttons[2].value === buttons[8].value && buttons[2].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[2].value);
     } else if (buttons[0].value === buttons[4].value && buttons[0].value === buttons[8].value && buttons[0].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[0].value);
     } else if (buttons[2].value === buttons[4].value && buttons[2].value === buttons[6].value && buttons[2].value !== "") {
-        console.log("gilocav!");
+        console.log("gilocav!" + buttons[2].value);
     } else if (buttons[0].value != "" &&
         buttons[1].value != "" &&
         buttons[2].value != "" &&
