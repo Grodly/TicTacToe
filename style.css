@@ -51,7 +51,6 @@ body {
     margin-top: 30px;
     padding-bottom: 20px;
     width: 50%;
-    height: 50%;
     background: rgb(92, 100, 112);
     color: #fff;
     border-radius: 10px;
@@ -74,15 +73,11 @@ body {
     background: #5c60e0;
 }
 
-.main .gameArea {
-    margin: auto;
-}
-
-.main .gameArea input[type=button] {
+.main .gameBar .gameArea input[type=button] {
+    font-size: 400%;
     background: #313945;
     color: #fff;
     width: 10%;
-    padding-bottom: 8%;
     margin: 5px 3px;
     border: none;
 }
