@@ -2,7 +2,7 @@
 //player2 Dark - #0c44a6 Light - #5c60e0
 
 var turn = "X";
-var buttons = document.querySelectorAll("#btn");
+var buttons = document.querySelectorAll(".btn");
 
 var player1 = document.querySelector(".player1");
 var player2 = document.querySelector(".player2");
@@ -44,17 +44,51 @@ function CheckPlayersNames() {
 
 function ChangeTurn() {
     if (turn === "X") {
-        turn === "O";
-        player1.style.background = "#A62A0C"; //light
-        player2.style.background = "#A62A0C"; //dark
-    } else if (tunr === "O") {
-        turn === "X";
+        turn = "O";
+        player1.style.background = "#e0765c"; //light
+        player2.style.background = "#0c44a6"; //dark
+    } else if (turn === "O") {
+        turn = "X";
         player1.style.background = "#A62A0C"; //dark
         player2.style.background = "#5c60e0"; //light
     }
 }
 
-function OnClickBlock() {
+function OnClickBlock(id) {
+    var btn = document.querySelector("#" + id);
+    if (btn.value === "") {
+        btn.value = turn;
+        ChangeTurn();
+        CheckWinner();
+    }
+}
 
-    this.value = turn;
+function CheckWinner() {
+    if (buttons[0].value === buttons[1].value && buttons[0].value === buttons[2].value && buttons[0].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[3].value === buttons[4].value && buttons[3].value === buttons[5].value && buttons[3].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[6].value === buttons[7].value && buttons[6].value === buttons[8].value && buttons[6].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[0].value === buttons[3].value && buttons[0].value === buttons[6].value && buttons[0].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[1].value === buttons[4].value && buttons[1].value === buttons[7].value && buttons[1].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[2].value === buttons[5].value && buttons[2].value === buttons[8].value && buttons[2].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[0].value === buttons[4].value && buttons[0].value === buttons[8].value && buttons[0].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[2].value === buttons[4].value && buttons[2].value === buttons[6].value && buttons[2].value !== "") {
+        console.log("gilocav!");
+    } else if (buttons[0].value != "" &&
+        buttons[1].value != "" &&
+        buttons[2].value != "" &&
+        buttons[3].value != "" &&
+        buttons[4].value != "" &&
+        buttons[5].value != "" &&
+        buttons[6].value != "" &&
+        buttons[7].value != "" &&
+        buttons[8].value != "") {
+        console.log("yaimi");
+    }
 }
