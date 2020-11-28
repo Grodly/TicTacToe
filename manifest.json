@@ -1,33 +1,63 @@
 [{
-    "id": "S1",
+    "id": "1",
+    "type": "seriali",
+    "uploadTime": "1585746859",
     "nameGE": "სიმფსონები",
     "nameEN": "The Simpsons",
-    "poster": "not found",
-    "genre": "ანიმაცია",
+    "poster": "https://img.ge/images/69347079882995426321.png",
+    "genres": ["ანიმაცია", "კრიმინალური"],
     "year": "1989",
     "country": "ამერიკა",
     "duration": "22-14",
-    "ზღვარი": "TV-14",
+    "zgvari": "TV-14",
     "IMDb": "8.7",
     "director": "Brad Bird, Tony Fucile, David Silverman",
     "actors": "Dan Castellaneta, Julie Kavner, Nancy Cartwright",
     "desc": "ჩვეულებრივი ამერიკული ქალაქი, სპრინგფილდი. სიმპსონების ოჯახის ყოვედღიურობა. მსოფლიოში ყველაზე ცნობილი ანიმაციური ოჯახი: მამა ჰომერი, დედა მარჯი, ქალიშვილები ლიზა და მეგი, და აუტანელი მოზარდი ბარტი.",
     "seasons": [{
-        "id": "1",
-        "episodes": [{
-                "id": "1",
-                "name": "სერია 1",
-                "links": [
-                    "https://icecube-eu-279.icedrive.io/download?p=1B1u5y%2F1qaEAw03iLTsujzpXMoPR2CsSvN83yICRHnCLnMzd%2B4lvBQ9W0vBJI0TuC7jI0aYGnKjL1rZF0N2cSf9YgVKoc3iSOOQNALRW%2Fg16gyk9GstlbzYwqVstc2sScaJsLq7I5W1yntdZuyvNFnDe%2FLdD8kcvRKsvzg%2Baomq9VK8H4wJ1N9xwOE1Hav4w"
-                ]
-            },
-            {
-                "id": "2",
-                "name": "სერია 2",
-                "links": [
-                    "https://icecube-eu-278.icedrive.io/download?p=1B1u5y%2F1qaEAw03iLTsujzpXMoPR2CsSvN83yICRHnB5jdX4p%2FlMFf7CEdoqd3SM4MlntzEX1TDvCFYBtywLosNoORWrkCXIjULs4VfI3Yb8cms94XITnFAL%2B6ooN9a1ojpicHHx1HUs%2BiDI1EpZ1pJocv2mlwNS2YNcQGeVnrMfFhkGOszXkXV4pOasabdw"
-                ]
-            }
-        ]
-    }]
+            "id": "1",
+            "name": "სეზონი 1",
+            "episodes": [{
+                    "id": "1",
+                    "name": "სერია 1",
+                    "link": "https://www.dropbox.com/s/tpw4j7agm14d3va/%E1%83%A1%E1%83%98%E1%83%9B%E1%83%A4%E1%83%A1%E1%83%9D%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%20%E1%83%A1%E1%83%94%E1%83%96%E1%83%9D%E1%83%9C%E1%83%98%201%20%E1%83%A1%E1%83%94%E1%83%A0%E1%83%98%E1%83%90%201.mp4?raw=1"
+                },
+                {
+                    "id": "2",
+                    "name": "სერია 2",
+                    "link": "https://www.dropbox.com/s/rqmn18xd62xy7nc/S1E2.mp4?raw=1"
+                },
+                {
+                    "id": "3",
+                    "name": "სერია 3",
+                    "link": "https://www.dropbox.com/s/rqmn18xd62xy7nc/S1E2.mp4?raw=1"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "სეზონი 2",
+            "episodes": [{
+                    "id": "1",
+                    "name": "სერია 1",
+                    "link": "https://www.dropbox.com/s/tpw4j7agm14d3va/%E1%83%A1%E1%83%98%E1%83%9B%E1%83%A4%E1%83%A1%E1%83%9D%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%20%E1%83%A1%E1%83%94%E1%83%96%E1%83%9D%E1%83%9C%E1%83%98%201%20%E1%83%A1%E1%83%94%E1%83%A0%E1%83%98%E1%83%90%201.mp4?raw=1"
+                },
+                {
+                    "id": "2",
+                    "name": "სერია 2",
+                    "link": "https://www.dropbox.com/s/rqmn18xd62xy7nc/S1E2.mp4?raw=1"
+                },
+                {
+                    "id": "3",
+                    "name": "სერია 3",
+                    "link": "https://www.dropbox.com/s/rqmn18xd62xy7nc/S1E2.mp4?raw=1"
+                },
+                {
+                    "id": "4",
+                    "name": "სერია 4",
+                    "link": "https://www.dropbox.com/s/rqmn18xd62xy7nc/S1E2.mp4?raw=1"
+                }
+            ]
+        }
+    ]
 }]
